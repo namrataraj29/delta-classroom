@@ -98,11 +98,24 @@
         <input type="text" placeholder="last name" id="candidate name">
     </label><br>
     please select your gender &nbsp;<select name="gender" id="gender">
+        <option>pleasr select</option>
         <option value="male">male</option>
         <option value="female">female</option>
         <option value="other">other</option>
     </select><br>
-    Do you agree to all terms of service? <input type="checkbox"> yes, i agree<br>
+    choose your stream 
+    <input type="radio" id="dance" name="stream">
+    <label for="dance">dance</label>
+    <input type="radio" id="music" name="stream">
+    <label for="music">music</label>
+    <input type="radio" id="comedy" name="stream">
+    <label for="comedy">comedy</label><br>
+    <label for="term"> Do you agree to all terms of service?</label>
+ <input type="checkbox"  id="term"> yes, i agree<br>
+ <input type="range" min="10" max="100" id="vol" name="volume">
+ <label for="vol">please select volume</label><br>
+ <label for="intro">Tell something about yourself</label><br>
+ <textarea id="intro" placeholder="write here!"></textarea><br>
     <button>Register</button>
     
     
